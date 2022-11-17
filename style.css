@@ -68,8 +68,10 @@ header{
     width: 80px;
     height: 30px;
     border: 1px solid black;
-    margin: 20px 650px ;
+    margin: 10px auto;
     background: transparent;
+    display: grid;
+    place-items: center;
 }
 .body{
     background: rgba(212, 212, 212, 0.92);
@@ -140,9 +142,9 @@ header{
     color: rgb(240, 114, 18);
 }
 .box-1 img {
-    height: 240px;
-    width: 294px;
-    padding: 6px 20px 15px 5px;
+    height: 170px;
+    width: 185px;
+    padding: 13px 20px 15px 25px;
     border-radius: 50%;
 }
 .icons{
